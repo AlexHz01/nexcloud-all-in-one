@@ -42,7 +42,7 @@ services:
     image: onlyoffice/documentserver:latest
     restart: always
     environment:
-      - JWT_SECRET=Systemtet2025@@
+      - JWT_SECRET=secreto_colcoar_en_bash_el_mismo
     expose:
       - '80'
       - '443'
